@@ -74,16 +74,29 @@
 # Note that only transitive verbs get our VerbT tag,
 # and some of those could also function as intransitives!
 1	VerbT	has
+1	VerbT	have
 1	VerbT	covers
-1	VerbT	is
+1	VerbT	cover
+1	Be	is
+1	Be	was
+1	Be	were
+1	Be	are
+1	Be	been
+1	Be	be
 1	VerbT	drinks
+1	VerbI	drinks
+1	VerbT	drink
+1	VerbI	drink
 1	VerbT	carries
+1	VerbT	carry
 1	VerbT	rides
+1	VerbT	ride
+1	VerbT	rode
 
 # End-of-sentence.
-1	Misc	!
-1	Misc	.
-1	Misc	?
+1	EOS	!
+1	EOS	.
+1	EOS	?
 
 # Pauses.
 1	Misc	,
@@ -93,235 +106,246 @@
 1	Misc	:
 
 # Coordinating conjunctions.
-1	Misc	and
-1	Misc	but
-1	Misc	or
-1	Misc	either
-1	Misc	nor
-1	Misc	neither
-1	Misc	so
+1	Conj	and
+1	Conj	but
+1	Conj	or
+1	Conj	either
+1	Conj	nor
+1	Conj	neither
+1	Conj	so
 
 # Numbers.
-1	Misc	eight
-1	Misc	five
-1	Misc	one
-1	Misc	5.5
-1	Misc	sixty
-1	Misc	5,000
+1	Num	eight
+1	Num	five
+1	Num	one
+1	Num	5.5
+1	Num	sixty
+1	Num	5,000
 
 # Expletive.
 1	Misc	there
 
 # Subordinating conjunctions.
-1	Misc	that
-1	Misc	so
-1	Misc	while
-1	Misc	because
-1	Misc	if
+1	Sub	that
+1	Sub	so
+1	Sub	while
+1	Sub	because
+1	Sub	if
 
 # Modals.
-1	Misc	can
-1	Misc	could
-1	Misc	may
-1	Misc	might
-1	Misc	must
-1	Misc	ought
-1	Misc	shall
-1	Misc	should
-1	Misc	will
-1	Misc	would
+1	Modal	can
+1	Modal	could
+1	Modal	may
+1	Modal	might
+1	Modal	must
+1	Modal	ought
+1	Modal	shall
+1	Modal	should
+1	Modal	will
+1	Modal	would
 
 
 # Adjectives.
-1	Misc	bloody
-1	Misc	weary
-1	Misc	unable
-1	Misc	trusty
-1	Misc	further
-1	Misc	sacred
-1	Misc	tropical
-1	Misc	indigenous
-1	Misc	temperate
-1	Misc	hot
-1	Misc	lucky
-1	Misc	simple
-1	Misc	tiny
-1	Misc	hard	
-1	Misc	sensational
-1	Misc	comparable
-1	Misc	angolian
-1	Misc	yellow
-1	Misc	plodding
+1	JJ	bloody
+1	JJ	weary
+1	JJ	unable
+1	JJ	trusty
+1	JJ	further
+1	JJ	sacred
+1	JJ	tropical
+1	JJ	indigenous
+1	JJ	temperate
+1	JJ	hot
+1	JJ	lucky
+1	JJ	simple
+1	JJ	tiny
+1	JJ	hard	
+1	JJ	sensational
+1	JJ	comparable
+1	JJ	angolian
+1	JJ	yellow
+1	JJ	plodding
 
 # Comparative adjectives.
-1	Misc	bloodier
-1	Misc	wearier
-1	Misc	trustier
-1	Misc	hotter
-1	Misc	simpler
-1	Misc	tinier
-1	Misc	harder
+1	JJ	bloodier
+1	JJ	wearier
+1	JJ	trustier
+1	JJ	hotter
+1	JJ	simpler
+1	JJ	tinier
+1	JJ	harder
 
 # Superlative adjectives.
-1	Misc	bloodiest
-1	Misc	weariest
-1	Misc	trustiest
-1	Misc	hottest
-1	Misc	simplest
-1	Misc	tiniest
-1	Misc	hardest
+1	JJ	bloodiest
+1	JJ	weariest
+1	JJ	trustiest
+1	JJ	hottest
+1	JJ	simplest
+1	JJ	tiniest
+1	JJ	hardest
 
 # Plural nouns.
-1	Misc	coconuts
-1	Misc	halves
-1	Misc	snows
-1	Misc	mountains
-1	Misc	areas
-1	Misc	strangers
-1	Misc	inches
-1	Misc	snakes
-1	Misc	ants
-1	Misc	nights
+1	Plural	coconuts
+1	Plural	halves
+1	Plural	snows
+1	Plural	mountains
+1	Plural	areas
+1	Plural	strangers
+1	Plural	inches
+1	Plural	snakes
+1	Plural	ants
+1	Plural	nights
 
 # More proper nouns, not people.
 
-1	Misc	Camelot
-1	Misc	England
-1	Misc	Holy Grail
-1	Misc	Round Table
+1	Proper	Camelot
+1	Proper	England
+1	Proper	Holy Grail
+1	Proper	Round Table
 
 # Plural proper nouns.
 1	Misc	Britons
 1	Misc	Saxons
 
 # Personal pronouns.
-1	Misc	he
-1	Misc	her
-1	Misc	him
-1	Misc	it
-1	Misc	one
-1	Misc	she
-1	Misc	them
-1	Misc	they
+1	Pron	he
+1	Pron	her
+1	Pron	him
+1	Pron	it
+1	Pron	one
+1	Pron	she
+1	Pron	them
+1	Pron	they
 
 
 # Possessive personal pronouns
-1	Misc	her
-1	Misc	his
-1	Misc	its
-1	Misc	their
+1	POS	her
+1	POS	his
+1	POS	its
+1	POS	their
 
 # Adverbs.
-1	Misc	again
-1	Misc	already
-1	Misc	currently
-1	Misc	frequently
-1	Misc	precisely
-1	Misc	south
-1	Misc	successfully
-1	Misc	unfortunately
+1	RB	again
+1	RB	already
+1	RB	currently
+1	RB	frequently
+1	RB	precisely
+1	RB	south
+1	RB	successfully
+1	RB	unfortunately
 
 # 'do'/'does'
-1	Misc	do
-1	Misc	does
+1	VerbT	do
+1	VerbI	do
+1	Aux	do
+1	VerbT	does
+1	VerbI	does
+1	Aux	does
+
+1	Aux	are
+1	Aux	is
+
+1	Aux	have
+1	Aux	has
+1	Aux	had
 
 # 'to'
-1	Misc	to
+1	Prep	to
 
 # 'not'
-1	Misc	not
-
-# Verbs (base form).
-1	Misc	have
-1	Misc	speak
-1	Misc	cover
-1	Misc	be
-1	Misc	ride
-1	Misc	drink
-1	Misc	grow
-1	Misc	carry
-1	Misc	suggest
-1	Misc	migrate
-1	Misc	know
-
-# Verbs (past tense).
-1	Misc	had
-1	Misc	spoke
-1	Misc	covered
-1	Misc	was
-1	Misc	were
-1	Misc	rode
-1	Misc	drank
-1	Misc	grew
-1	Misc	carried
-1	Misc	suggested
-1	Misc	migrated
-1	Misc	knew
-
-# Verbs (present participles).
-1	Misc	having
-1	Misc	speaking
-1	Misc	covering
-1	Misc	being
-1	Misc	riding
-1	Misc	drinking
-1	Misc	growing
-1	Misc	carrying
-1	Misc	suggesting
-1	Misc	migrating
-1	Misc	knowing
-
-# Verbs (past participle).
-1	Misc	had
-1	Misc	spoken
-1	Misc	covered
-1	Misc	been
-1	Misc	ridden
-1	Misc	drunk
-1	Misc	grown
-1	Misc	carried
-1	Misc	suggested
-1	Misc	migrated
-1	Misc	known
-
-# More third person singular verbs.
-1	Misc	speaks
-1	Misc	grows
-1	Misc	goes
-1	Misc	migrates
-1	Misc	suggests
-1	Misc	knows
-
-# Verbs (present, plural, third person).
-1	Misc	have
-1	Misc	speak
-1	Misc	cover
-1	Misc	are
-1	Misc	ride
-1	Misc	drink
-1	Misc	grow
-1	Misc	carry
-1	Misc	suggest
-1	Misc	migrate
-1	Misc	know
+1	RB	not
 
 # Wh-determiners.
-1	Misc	that
-1	Misc	what
-1	Misc	which
+1	Wh	what
+1	Wh	which
+1	Wh	who
+1	Wh	why
 
-# Wh-pronouns.
-1	Misc	what
-1	Misc	who
+# Verbs (base form).
+1	VerbT	have
+1	VerbT	had
+1	VerbI	speak
+1	VerbI	speaks
+1	VerbI	spoke
+1	VerbT	speak
+1	VerbT	speaks
+1	VerbT	spoke
+1	VerbT	cover
+1	VerbI	covered
+1	VerbT	ride
+1	VerbI	ride
+1	VerbT	rode
+1	VerbI	rode
+1	VerbT	drink
+1	VerbI	drink
+1	VerbT	drank
+1	VerbI	drank
+1	VerbI	goes
+1	VerbI	grow
+1	VerbI	grow
+1	VerbT	grows
+1	VerbI	grows
+1	VerbT	grew
+1	VerbI	grew
+1	VerbT	carry
+1	VerbI	carry
+1	VerbT	carried
+1	VerbI	carried
+1	VerbT	suggest
+1	VerbI	suggest
+1	VerbI	suggesting
+1	VerbT	suggested
+1	VerbI	suggested
+1	VerbI	migrate
+1	VerbI	migrates
+1	VerbI	migrated
+1	VerbI	know
+1	VerbT	know
+1	VerbI	knows
+1	VerbT	knows
+1	VerbI	knew
+1	VerbT	knew
+
+# VV
+1	VV	suggest
+1	VV	suggests
+1	VV	suggested
+1	VV	suggesting
+
+# Verbs (present participles).
+1	VBG	having
+1	VBG	speaking
+1	VBG	covering
+1	VBG	being
+1	VBG	riding
+1	VBG	drinking
+1	VBG	growing
+1	VBG	carrying
+1	VBG	suggesting
+1	VBG	migrating
+1	VBG	knowing
+
+# Verbs (past participle).
+1	VBP	had
+1	VBP	spoken
+1	VBP	covered
+1	VBP	been
+1	VBP	ridden
+1	VBP	drunk
+1	VBP	grown
+1	VBP	carried
+1	VBP	suggested
+1	VBP	migrated
+1	VBP	known
 
 # Wh possessive pronoun.
-1	Misc	whose
+1	POS	whose
 
 # Wh-adverbs
-1	Misc	how
-1	Misc	when
-1	Misc	where
-1	Misc	why
+1	WRB	how
+1	WRB	when
+1	WRB	where
+1	WRB	why
 
 
 # Possessive marker.

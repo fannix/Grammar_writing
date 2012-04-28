@@ -1,19 +1,59 @@
 # The start symbol is START.
 
 # These two rules are required; choose their weights carefully!
-1	START	S1
+20	START	S1
 1	START	S2
 
 # This is a very, very, very simple grammar to get you started.
 
-1	S1	NP VP .
+10	S1	NP VP EOS
+1	S1	Aux NP VP ?
+1	S1	Wh Aux NP VP ?
+1	S1	Wh Aux NP VP ?
+1	S1	Pron Be NP Wh VP EOS 
+1	S1	either NP VP or NP VP EOS 
+1	S1	neither NP nor NP VP EOS 
+1	S1	NP VP Conj VP EOS 
+1	S1	NP Conj NP VP EOS
+1	S1	NP VP , NP EOS
+1	S1	NP , NP , VP EOS
+1	S1	NP VP Sub NP VP EOS 
+1	S1	NP VP Sub NP VP NP VP EOS 
+1	S1	NP VP Wh NP VP EOS 
+1	S1	NP VP Sub VP EOS 
+1	S1	when NP VP , NP VP EOS 
+1	S1	Aux VP EOS 
+1	S1	VP EOS 
 
-1	VP	VerbT NP
+5	VP	VerbT NP
+10	VP	VerbI
+1	VP	Be JJ
+1	VP	Be NP
+1	VP	Be PP
+1	VP	Be VP
+1	VP	VV NP VP
+1	VP	VP PP
+1	VP	VP RB
+1	VP	Aux VP
+1	VP	RB VP
+1	VP	Aux VBP NP
+1	VP	Aux VBP
+1	VP	Modal VP
 
-20	NP	Det Nbar
-1	NP	Proper
+
+10	NP	Det Nbar
+10	NP	Plural
+5	NP	Proper
+5	NP	Pron
+1	NP	Num Noun
+1	NP	POS Noun
+1	NP	Num Plural
+1	NP	VBG 
+1	NP	NP PP
 
 20	Nbar	Noun
+20	Nbar	Proper
 1	Nbar	Nbar PP
+1	Nbar	JJ Nbar
 
 1	PP	Prep NP
